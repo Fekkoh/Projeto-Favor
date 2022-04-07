@@ -10,8 +10,8 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="/assets/img/favicon.png" rel="icon">
+  <link href="/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link
@@ -19,17 +19,17 @@
     rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="/assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
 
   <!-- =======================================================
   * Template Name: Selecao - v4.7.0
@@ -42,32 +42,32 @@
 <body>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+  <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
       <div class="logo">
-        <h1><a href="index.html">Projeto Favor</a></h1>
+        <h1><a href="/">Projeto Favor</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="scrollto active" href="index.html">Home</a></li>
-          <li><a class="scrollto" href="about.html">Sobre nós</a></li>
+          <li><a class="scrollto" href="/">Home</a></li>
+          <li><a class="scrollto" href="/about">Sobre nós</a></li>
           <li class="dropdown"><a href="#"><img width="30" src="assets/img/globe.png" alt="globe.png"></span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="index.html"><img width="30" height="20" src="assets/img/bandeiras/pt.png" alt="PT">Português </a></li>
+              <li><a href="/"><img width="30" height="20" src="assets/img/bandeiras/pt.png" alt="PT">Português </a></li>
               <!-- <li><a href="en/index.html"><img width="30" height="20" src="assets/img/bandeiras/uk.png" alt="UK">English </a></li> -->
             </ul>
           </li>
           <li class="dropdown"><a href="#"><img width="30" src="assets/img/user.png" alt="user.png"> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a class="scrollto" href="login.html">Login</a></li>
-              <li><a class="scrollto" href="register.html">Registar-se</a></li>
+              <li><a class="scrollto" href="/login">Login</a></li>
+              <li><a class="scrollto" href="/register">Registar-se</a></li>
             </ul>
         </li>
-        <li><a class="scrollto" href="search.html"><img width="30" src="assets/img/search.png" alt="search.png"></a></li>
+        <li><a class="scrollto" href="/search"><img width="30" src="assets/img/search.png" alt="search.png"></a></li>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
@@ -82,11 +82,11 @@
       <h3>Selecao</h3>
       <p>Et aut eum quis fuga eos sunt ipsa nihil. Labore corporis magni eligendi fuga maxime saepe commodi placeat.</p>
       <div class="social-links">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        <a href="https://www.twitter.com" class="twitter" target="_blank"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
+        <a href="https://www.instagram.com" class="instagram" target="_blank"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.skype.com" class="google-plus" target="_blank"><i class="bx bxl-skype"></i></a>
+        <a href="https://www.linkedin.com" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="copyright">
         &copy; Copyright <strong><span>Selecao</span></strong>. All Rights Reserved
@@ -105,15 +105,15 @@
       class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="/assets/vendor/aos/aos.js"></script>
+  <script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="/assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="/assets/js/main.js"></script>
 
 </body>
 
