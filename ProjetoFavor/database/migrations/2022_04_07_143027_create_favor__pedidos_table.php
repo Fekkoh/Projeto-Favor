@@ -14,8 +14,15 @@ return new class extends Migration
     public function up()
     {
         Schema::create('favor__pedidos', function (Blueprint $table) {
-            $table->id();
-            $table->timestamps();
+            $table->id('id_favor_pedido');
+            $table->string('nome_area');
+            $table->string('titulo');
+            $table->string('descricao');
+            $table->date('data');
+            $table->time('hora');
+            $table->tinyint('finalizado');
+            $table->id('area_id_area');
+            $table->id('user_id_user_pediu');
         });
     }
 
